@@ -1,0 +1,171 @@
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Work+Sans&display=swap');
+
+
+  *  {
+      margin:0px;
+      font-family: 'Work Sans', sans-serif;
+      font-family: 'Open Sans', sans-serif;
+      font-family: 'Work Sans', sans-serif;
+      
+}
+
+  
+
+.div1{
+  display: flex;
+  justify-content:space-around;
+  list-style: none;
+}
+.font{
+  height: 5px;
+  widows: 5px;
+}
+
+.color{
+  color: royalblue;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.ul{
+  display: flex;
+  list-style: none;
+   
+}
+.li{
+  display: flex;
+  list-style: none;
+  
+
+}
+.text{
+  margin:20px;
+  padding: 20px;
+  font-size: 1 rem;
+ 
+}
+.li1{
+  display: flex;
+  list-style: none;
+  border:2px;
+  margin:5px;
+  padding:5px;
+  background-color: antiquewhite;
+}
+.banner{
+  display:flex;
+  justify-content: space-around;
+  align-items:stretch;
+
+  
+}
+.btn  {
+  background-color: cornflowerblue;
+  margin: 10px;
+  color: aliceblue;
+}
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#F948B2, #0B0223);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.div{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  border: #0B0223;
+  border: 5px;
+  gap:10px;
+}
+.text style{
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.btn1{
+  text-align: center;
+  color: deeppink;
+  
+}
+.image contenter{
+  display:flex;
+  position: relative;
+  
+gap: 2px;
+}
+.image{
+  display: grid;
+  grid-template-columns:repeat(4,1fr) ;
+  gap: 5px;
+  
+  
+
+}
+.btn,.btn2{
+  border-radius:5px ;
+  letter-spacing: 0.20;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid slateblue;
+}
+
+.btn:hover,.btn2:hover{
+  background-color: var(#dfd9ee);
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 30 px var(#a08ad8)
+}
+
+.footer{
+  background-color: #0B0223;
+  border: solid darkslategray;
+  color: aliceblue;
+  margin:10px ;
+  padding: 10px;
+}
+.div2{
+  display: flex;
+  list-style: none;
+}
+.div3{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  border-radius: 5px;
+  gap: 20px;
+  margin: 10px;
+  padding: 10px;
+  
+}
+.li2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10px;
+}
+.gap{
+  gap: 2px;
+}
+
+  @media  and(min-width:576px) and (max-width:990px) {
+  
+    .nav{
+      display: flex;
+      justify-content:center;
+     
+    }
+
+  }
+ 
+           
+  
+  
+   
+  
+
+
+ 
+
